@@ -59,7 +59,7 @@ const InfoSection = ({
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
                                 <StyledButton 
-                                    href="https://genrandom.com/cats/"
+                                    to="/map"
                                     target="_blank" 
                                     rel="noopener noreferrer"
                                     primary={primary ? 1 : 0}

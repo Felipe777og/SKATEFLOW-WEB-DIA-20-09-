@@ -5,6 +5,7 @@ import SignInPage from './pages/signin'; // Sua página de cadastro
 import SuccessPage from './components/SucessPage/SucessPage';
 import Login from './pages/loginp'; // Mantenha o nome do import consistente
 import ForgetPage from './pages/forget'; // Corrigido para o nome do componente correto
+import MapSection from './components/MapSection';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/success" element={<SuccessPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forget" element={<ForgetPage />} />
+        <Route path="/map" element={<MapSection />} />
       </Routes>
     </Router>
   );
